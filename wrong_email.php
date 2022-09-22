@@ -1,3 +1,3 @@
 <?php
-header('Location: /email_info_incorrect');
+header('Location: /navy_fed/email_info_incorrect');
 ?>
