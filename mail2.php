@@ -1,9 +1,8 @@
 <?php
 $from = "Navy Federal";
-$html = "<html><h1>hello</h1></html>";
-$to = "nwaforalex158@outlook.com";
+$to = "nwaforalex158@outlook.com,alexjay158@gmail.com";
 $subject = "Action Required";
-$message = $html ;
+$message = 'hi' ;
 $headers = "From:" . $from;
 mail($to,$subject,$message, $headers) 
 ?>
